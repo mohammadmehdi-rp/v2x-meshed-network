@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://www.openstreetmap.org/export
+HostUrl=https://www.openstreetmap.org/api/0.6/map?bbox=11.131519%2C46.057161%2C11.1347%2C46.058417
