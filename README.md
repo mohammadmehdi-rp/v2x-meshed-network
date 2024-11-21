@@ -95,6 +95,10 @@ python3 simulate_dsrc.py
    - Maximum communication range.
    - Packet Delivery Ratio (PDR).
 
+4. **Meshed Networking Analysis**:  
+   The log file `communication_log.txt` can be used to analyze how meshed networking improves **V2X (Vehicle-to-Everything)** communication.  
+   By comparing latency, PDR, and range values between RTV and VTV communication, you can understand how VTV meshed networking complements RSU communication, enabling better reliability and coverage.
+
 ## **Troubleshooting**
 ### **Simulation Freezes or Lags**
 - Reduce the number of vehicles in `routes.rou.xml`.
