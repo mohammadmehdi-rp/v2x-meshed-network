@@ -84,7 +84,7 @@ python3 simulate_dsrc.py
    If running `sumo-gui`, you'll see vehicle and RSU interactions on the map.
 
 2. **Log File**:  
-   Communication events are logged in `communication_log.txt`, including:
+   Communication events are logged in `non_meshed_network_log.txt` and `meshed_network_log.txt`, including:
    - Time of communication.
    - Source and target of communication.
    - Type of communication (RTV or VTV).
@@ -96,7 +96,7 @@ python3 simulate_dsrc.py
    - Packet Delivery Ratio (PDR).
 
 4. **Meshed Networking Analysis**:  
-   The log file `communication_log.txt` can be used to analyze how meshed networking improves **V2X (Vehicle-to-Everything)** communication.  
+   The log file `meshed_network_log.txt` can be used to analyze how meshed networking improves **V2X (Vehicle-to-Everything)** communication.  
    By comparing latency, PDR, and range values between RTV and VTV communication, you can understand how VTV meshed networking complements RSU communication, enabling better reliability and coverage.
 
 ## **Troubleshooting**
